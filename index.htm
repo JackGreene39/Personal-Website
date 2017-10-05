@@ -1,27 +1,30 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
 <style>
 	
 	#intro {
-		display: block;
-		position: fixed;
-		top: 300px;
-		left: 600px
+		position: absolute;
+		margin: auto;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 250px;
 	}
 	p {
-		position: fixed;
+		position: relative;
 		color:#6CCAFC;
 		font-family: Comfortaa;
-		font-size: 30px;
-
+		font-size: 1.9vw;
+		top: -5%;
+		right: 1%;
 	}
 	#midheader {
-		position: fixed;
-		top: 400px;
-		height: 100px;
-		width: 1960px;
+		position: absolute;
+		top: 43%;
+		height: 5vw;
+		width: 100%;
 		background-color: white;
 	}
 	a{
@@ -30,58 +33,54 @@
 		font-size: 18px;
 	}
 	#Education {
-		position: fixed;
-		top: 550px;
-		left: 350px;
-		height: 170px;
-		width: 200px;
+		position: absolute;
+		top: 57%;
+		left: 19%;
+		
 	}
 	#Skills{
-		position: fixed;
-		top: 550px;
-		left: 750px;
-		height: 170px;
-		width: 200px;
+		position: absolute;
+		top: 57%;
+		left: 38.3%;
+		
 	}
 	#AboutMe{
-		position: fixed;
-		top: 550px;
-		left: 1075px;
-		height: 170px;
-		width: 200px;
+		position: absolute;
+		top: 57%;
+		left: 54.8%;
+		
 	}
 	#Contact{
-		position: fixed;
-		top: 550px;
-		left: 1425px;
-		height: 170px;
-		width: 200px;
+		position: absolute;
+		top: 57%;
+		left: 72.7%;
+		
 	}
 	h1{
 		color: #6CCAFC;
 		font-family: Calibri;
-		font-size: 24px;
+		font-size: 1.35vw;
 		font-weight: normal;
 		font-style: italic;
 		
 	}
 	h2{
-		position: fixed;
+		position: relative;
 		color: #6CCAFC;
 		font-family: Calibri;
-		font-size: 18px;
+		font-size: 1vw;
 		font-weight: normal;
 	}
-	a{
-		position: fixed;
+	<!--a{
+		position: relative;
 		color: #6CCAFC;
 		font-family: Calibri;
-		font-size: 18px;
+		font-size: 1vw;
 		font-weight: normal;
-	}
+	}-->
 	
 	body {
-		
+		overflow: hidden;
 		background-color: #1c5c85;
 	}
 </style>
@@ -90,37 +89,34 @@
 <body>
 <img id="intro" src="Name.gif">
 <div id="midheader">
-	<p style = "left: 485px">Aspiring Creator</p>
-	<p style = "left: 835px">Ardent Learner</p>
-	<p style = "left: 1185px">Tech Mastermind</p>
-	<p style = "top: 450px; right: 470px; font-size: 15px;"> (coming soon)</p>
+	<p style = "text-align: center;">Aspiring Creator - Ardent Learner - Tech Mastermind<p style = "font-size: 1vw; text-align: center; top: -2.2vw; left: 20%;"> (coming soon)</p> </p>
 </div>
 <div id="Education">
 	<h1>Education</h1>
-	<h2 style = "top: 600px;">Texas A&M University</h2>
-	<h2 style = "top: 650px;">Freshman</h2>
-	<h2 style = "top: 700px;">Computer Science</h2>
+	<h2>Texas A&M University</h2>
+	<h2>Freshman</h2>
+	<h2>Computer Science</h2>
 </div>
 <div id="Skills">
 	<h1>Skills</h1>
-	<h2 style = "top: 600px;">Java</h2>
-	<h2 style = "top: 650px;">HTML</h2>
-	<h2 style = "top: 700px;">CSS</h2>
+	<h2>Java</h2>
+	<h2>HTML</h2>
+	<h2>CSS</h2>
 </div>
 <div id = "AboutMe">
 	<h1>About Me</h1>
-	<a href = "Resume.pdf" style = "top: 615px;">Resume</a>
-	<a href = "https://www.linkedin.com/in/jack-greene-8828b914b/" style = "top: 665px">LinkedIn</a>
-	<a href = "https://github.com/JackGreene39" style = "top: 715px">GitHub</a>
+	<h2><a href = "Resume.pdf">Resume</a></h2>
+	<h2><a href = "https://www.linkedin.com/in/jack-greene-8828b914b/" >LinkedIn</a></h2>
+	<h2><a href = "https://github.com/JackGreene39" >GitHub</a></h2>
 </div>
 <div id = "Contact">
 	<h1>Contact</h1>
-	<h2 style = "top: 600px;">jackgreene39@tamu.edu</h2>
-	<h2 style = "top: 650px;">jackmgreene39@gmail.com</h2>
-	<h2 style = "top: 700px;">832-520-8281</h2>
+	<h2>jackgreene39@tamu.edu</h2>
+	<h2>jackmgreene39@gmail.com</h2>
+	<h2>832-520-8281</h2>
 </div>
 
-<a href="AboutMe.htm" style = "> About Me</a>
+
 
 
 
